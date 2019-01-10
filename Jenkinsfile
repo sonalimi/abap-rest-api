@@ -8,11 +8,11 @@ def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
 parallel (
-    "NPL":{
+    "A4H":{
         node {
-        	def LABEL = "NPL"
+        	def LABEL = "A4H"
         	def HOST = "vhcalnplci.dummy.nodomain"
-        	def CREDENTIAL = "NPL"
+        	def CREDENTIAL = "A4H"
         	
         	git poll: true, branch: BRANCH, url: GITURL
         		
