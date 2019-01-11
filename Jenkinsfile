@@ -11,7 +11,7 @@ parallel (
     "A4H":{
         node {
         	def LABEL = "A4H"
-        	def HOST = "vhcalnplci.dummy.nodomain"
+        	def HOST = "abapci.dummy.nodomain"
         	def CREDENTIAL = "A4H"
         	
         	git poll: true, branch: BRANCH, url: GITURL
